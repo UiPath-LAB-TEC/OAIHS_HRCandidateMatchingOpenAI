@@ -1,0 +1,21 @@
+{
+  "version": "2.0",
+  "resources": [
+    {
+      "resource": "Connection",
+      "key": "449095bd-234f-4df0-8bf6-f9bf4be42bcd",
+      "value": {
+        "ConnectionId": {
+          "defaultValue": "449095bd-234f-4df0-8bf6-f9bf4be42bcd",
+          "isExpression": false
+        }
+      },
+      "metadata": {
+        "UseConnectionService": "True",
+        "Connector": "uipath-openai-openai",
+        "ActivityName": "Generate OpenAi response",
+        "BindingsVersion": "2.1"
+      }
+    }
+  ]
+}

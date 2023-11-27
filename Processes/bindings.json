@@ -1,0 +1,55 @@
+{
+  "version": "1.0",
+  "resources": [
+    {
+      "resource": "Connection",
+      "metadata": {
+        "ConnectionId": {
+          "defaultValue": "449095bd-234f-4df0-8bf6-f9bf4be42bcd",
+          "isExpression": false
+        },
+        "UseConnectionService": {
+          "defaultValue": "True",
+          "isExpression": false
+        },
+        "Connector": {
+          "defaultValue": "uipath-openai-openai",
+          "isExpression": false
+        },
+        "ActivityName": {
+          "defaultValue": "Generate OpenAi response",
+          "isExpression": false
+        },
+        "BindingsVersion": {
+          "defaultValue": "2.1",
+          "isExpression": false
+        }
+      }
+    },
+    {
+      "resource": "Connection",
+      "metadata": {
+        "ConnectionId": {
+          "defaultValue": "449095bd-234f-4df0-8bf6-f9bf4be42bcd",
+          "isExpression": false
+        },
+        "UseConnectionService": {
+          "defaultValue": "True",
+          "isExpression": false
+        },
+        "Connector": {
+          "defaultValue": "uipath-openai-openai",
+          "isExpression": false
+        },
+        "ActivityName": {
+          "defaultValue": "Generate Chat Completion",
+          "isExpression": false
+        },
+        "BindingsVersion": {
+          "defaultValue": "2.1",
+          "isExpression": false
+        }
+      }
+    }
+  ]
+}
